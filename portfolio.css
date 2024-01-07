@@ -86,12 +86,18 @@ nav a {
 /* banner end */
 /* header end */
 /* main start */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* about start */
 .about {
+    padding: 130px;
   border-radius: 10px;
   background: #fff8f3;
   margin: 130px 0;
+
 }
 .section-title {
   color: #181818;
@@ -106,8 +112,28 @@ font-family: Open Sans;
 font-size: 18px;
 
 font-weight: 400;
- 
-}
+ }
+ .about-info-container{
+    display: flex;
+    justify-content: space-around;
+ }
+ .about-info{
+    text-align: center;
+ }
+ .info-title{
+    color: #757575;
+ }
+ .info-description{
+    color: #474747;
+ }
 /* about end */
+/* What I do start */
+#what-i-do-description{
+    padding: 30px 150px;
+}
+.skill-container{
+    display: flex;
+}
+/* what I do end  */
 
 /* main end */
