@@ -90,7 +90,9 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
-
+main section{
+    margin-top: 50px;
+}
 /* about start */
 .about {
     padding: 130px;
@@ -104,6 +106,7 @@ main{
   text-align: center;
   font-size: 35px;
   font-weight: 700;
+
 }
 .section-description {
     color: #757575;
@@ -133,7 +136,57 @@ font-weight: 400;
 }
 .skill-container{
     display: flex;
+    gap: 24px;
+}
+.skills{
+    padding: 30px;
+    border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
 /* what I do end  */
+/* resume start  */
+.resume-container{
+  display: flex;
+  gap: 24px;
+}
+.resume-column-title{
+  margin-top: 100px;
+}
+.resume-item-institue, .resume-item-description{ 
+  color: #757575;
+}
+.resume-item-institue{
+  font-size: 20px;    
+font-weight: 600;
+
+}
+
+.resume-column-title{
+  color:#474747;
+  font-size: 30px;
+   font-weight: 700;
+
+}
+.resume-container hr{ 
+  margin: 20px 0;
+}
+.resume-download-cv{
+  text-align: center;
+  margin-top: 100px;
+}
+/* resume end */
 
 /* main end */
+
+/* footer start */
+.footer-container{
+  display: flex;
+  gap: 117px ;
+color: #FFF8F3;
+padding: 130px 230px;
+margin-top: 100px;
+}
+
+
+/* footer end */
