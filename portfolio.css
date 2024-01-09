@@ -1,7 +1,5 @@
 /* common style start */
 *{
-  margin: 0 ;
-  padding: 0;
   box-sizing: border-box;
 }
 body {
@@ -29,7 +27,7 @@ nav {
   margin: 0 200px;
 }
 .nav-title {
-  color: var(--Dark-01, #181818);
+  color: #181818+;
   font-family: Open Sans;
   font-size: 45px;
   font-weight: 800;
@@ -49,9 +47,9 @@ nav a {
 /* nav style end */
 .header {
   background-color: #fff8f3;
-  background-image: url("./images/header_bg.png");
+  background-image: url("./images/header_bg.png"),url("./images/developer.png");
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom right, top left;
 }
 /* banner start */
 .banner {
@@ -187,7 +185,7 @@ font-weight: 600;
 .footer-container{
   display: flex;
   gap: 100px ;
-color: #FFF8F3;
+background-color: #FFF8F3;
 padding: 130px 230px;
 margin-top: 100px;
 }
@@ -208,5 +206,6 @@ color: #757575;
 border: 0;
 border-radius: 5px;
 background: #FFF;
+font
 }
 /* footer end */
